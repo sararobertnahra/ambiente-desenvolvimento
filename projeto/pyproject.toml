@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "projeto"
+version = "0.1.0"
+description = ""
+authors = ["Sara Nahra <sara.nahra@fatec.sp.gov.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.26.1"
+pandas = "^2.1.2"
+openpyxl = "^3.1.2"
+
+[tool.poetry.scripts]
+dev = "projeto.__init__:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
